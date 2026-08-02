@@ -341,10 +341,10 @@ function ProjectCard({
 // ─── Data ────────────────────────────────────────────────────────────────────
 const workItems = [
   {
-    title: "Oracle Financial Services Software Limited",
+    title: "Oracle",
     location: "Bengaluru, Karnataka, India · On-site",
     extraInfo: "Full-time · 3 yrs 1 mo",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+    logo: "https://tse3.mm.bing.net/th/id/OIP.E6PicxOwVs7id0H0eoHTMgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     roles: [
       {
         subtitle: "Application Software Engineer",
@@ -484,7 +484,7 @@ const volunteerItems = [
     title: "Oracle Volunteering",
     subtitle: "Volunteer",
     date: "2023 – Present",
-    description: "Participated in community outreach programs organized by Oracle Financial Services, contributing to technology education and digital literacy initiatives.",
+    description: "Participated in community outreach programs organized by Oracle, contributing to technology education and digital literacy initiatives.",
   },
   {
     title: "Aashman Foundation",
@@ -878,7 +878,7 @@ export default function Home() {
                 </p>
                 <p>
                   Currently working as an{" "}
-                  <strong className="text-foreground">Associate Applications Developer at Oracle Financial Services</strong>, where I enhance payment modules including RTGS, NEFT, IMPS, and UPI, achieving up to 80% efficiency improvement. I&apos;ve published{" "}
+                  <strong className="text-foreground">Associate Applications Developer at Oracle</strong>, where I enhance payment modules including RTGS, NEFT, IMPS, and UPI, achieving up to 80% efficiency improvement. I&apos;ve published{" "}
                   <a href="#publications" className="underline dark:text-white text-black dark:hover:text-white/90 hover:text-gray-700 transition-colors">
                     10 research papers
                   </a>{" "}
