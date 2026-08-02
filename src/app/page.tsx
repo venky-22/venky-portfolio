@@ -381,7 +381,7 @@ const workItems = [
     title: "Kaar Technologies",
     location: "Chennai, IN",
     extraInfo: "Aug 2021 – Feb 2022",
-    logo: "https://dev.kaartech.com/wp-content/uploads/2024/11/KaarTech-logo-2.png",
+    logo: "https://mma.prnewswire.com/media/2219899/4544329/KaarTech_Logo.jpg?p=publish",
     roles: [
       {
         subtitle: "Product Developer Intern",
@@ -868,21 +868,15 @@ export default function Home() {
               <h2 className="text-xl font-bold">About</h2>
               <div className="text-muted-foreground leading-relaxed">
                 <p>
-                  I&apos;m a passionate software engineer with a strong background in machine learning, artificial intelligence, and full-stack development. I hold a{" "}
-                  <strong className="text-foreground">Bachelor of Engineering in Computer Science</strong> from{" "}
+                  Graduated from{" "}
                   <a href="https://psgitech.ac.in/" target="_blank" rel="noopener noreferrer" className="underline dark:text-white text-black dark:hover:text-white/90 hover:text-gray-700 transition-colors">
                     PSG Institute of Technology and Applied Research
                   </a>{" "}
-                  with a CGPA of 9.55, securing{" "}
-                  <strong className="text-foreground">University Third Rank</strong>.
+                  with a <strong className="text-foreground">Bachelor of Engineering in Computer Science</strong> in 2023. Currently contributing as an{" "}
+                  <strong className="text-foreground">Application Software Engineer at Oracle</strong>, where responsibilities include designing and delivering impactful solutions such as an MCP-based release automation tool that significantly reduced backport time and integrating an ML-powered Payment Chain Classifier into Java microservices.
                 </p>
                 <p>
-                  Currently working as an{" "}
-                  <strong className="text-foreground">Associate Applications Developer at Oracle</strong>, where I enhance payment modules including RTGS, NEFT, IMPS, and UPI, achieving up to 80% efficiency improvement. I&apos;ve published{" "}
-                  <a href="#publications" className="underline dark:text-white text-black dark:hover:text-white/90 hover:text-gray-700 transition-colors">
-                    10 research papers
-                  </a>{" "}
-                  in international conferences spanning deep learning, network security, evolvable hardware, and marine species classification.
+                  Experienced in managing Java/Spring Boot microservices within Oracle Banking Payments (OBPM), ensuring 99.9% SLA availability for global Tier-1 banks. Passionate about leveraging software engineering skills, including expertise in Git, Spring Boot, and MCP, to drive efficiency and innovation in financial technology systems.
                 </p>
               </div>
             </div>
@@ -898,7 +892,7 @@ export default function Home() {
               <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
                 <div className="space-y-2">
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide">
-                    What I Do
+                    Services
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">What I Do</h2>
                 </div>
@@ -935,7 +929,7 @@ export default function Home() {
             <div className="space-y-4 py-4 md:py-8">
               <div className="mx-auto max-w-2xl text-center">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide mb-3">
-                  Skills
+                  Expertise
                 </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">My Skills</h2>
               </div>
@@ -974,7 +968,7 @@ export default function Home() {
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide">
-                    My Projects
+                    Work
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Featured Projects</h2>
                   <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-w-[600px] mx-auto">
@@ -1000,7 +994,7 @@ export default function Home() {
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
                 <div className="space-y-2">
                   <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide">
-                    Experience &amp; Education
+                    Journey
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Experience &amp; Education</h2>
                 </div>
