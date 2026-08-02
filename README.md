@@ -21,7 +21,7 @@ Personal portfolio website built with Next.js 16 and Tailwind CSS v4.
 - Auto-scrolling skills marquee
 
 
-Open [[http://localhost:3000](http://localhost:3000)](https://venkateshwaran-portfolio.vercel.app/) in your browser.
+Open (http://localhost:3000)](https://venkateshwaran-portfolio.vercel.app/) in your browser.
 
 ## Deploy
 
