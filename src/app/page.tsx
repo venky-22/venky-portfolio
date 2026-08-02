@@ -890,12 +890,7 @@ export default function Home() {
           <section id="what-i-do" className="w-full py-12">
             <div className="mx-auto w-full max-w-2xl">
               <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
-                <div className="space-y-2">
-                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide">
-                    Services
-                  </div>
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">What I Do</h2>
-                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">What I Do</h2>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {[
@@ -928,9 +923,6 @@ export default function Home() {
           <section id="skills">
             <div className="space-y-4 py-4 md:py-8">
               <div className="mx-auto max-w-2xl text-center">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide mb-3">
-                  Expertise
-                </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">My Skills</h2>
               </div>
               <div className="mx-auto max-w-2xl space-y-4">
@@ -966,15 +958,10 @@ export default function Home() {
           <section id="projects">
             <div className="mx-auto w-full max-w-2xl space-y-12 py-12">
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <div className="space-y-2">
-                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide">
-                    Work
-                  </div>
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Featured Projects</h2>
-                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-w-[600px] mx-auto">
-                    A selection of projects I&apos;ve built and contributed to.
-                  </p>
-                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Featured Projects</h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-w-[600px] mx-auto">
+                  A selection of projects I&apos;ve built and contributed to.
+                </p>
               </div>
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                 {projectCards.map((project, i) => (
@@ -992,12 +979,7 @@ export default function Home() {
           <section id="experience" className="space-y-12 w-full py-12">
             <div className="mx-auto w-full max-w-2xl">
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <div className="space-y-2">
-                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide">
-                    Journey
-                  </div>
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Experience &amp; Education</h2>
-                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Experience &amp; Education</h2>
               </div>
               <div className="mt-8">
                 <h3 className="text-xl font-bold mb-4">Experience</h3>
@@ -1099,15 +1081,10 @@ export default function Home() {
           <section id="publications" className="space-y-12 w-full py-12">
             <div className="mx-auto w-full max-w-2xl">
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <div className="space-y-2">
-                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide">
-                    Research
-                  </div>
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Publications</h2>
-                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-w-[600px] mx-auto">
-                    10 research papers published in international conferences across AI, security, and systems.
-                  </p>
-                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Publications</h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-w-[600px] mx-auto">
+                  10 research papers published in international conferences across AI, security, and systems.
+                </p>
               </div>
               <div className="mt-8">
                 <div className="space-y-3">
@@ -1136,15 +1113,10 @@ export default function Home() {
           <section id="community" className="space-y-12 w-full py-12">
             <div className="mx-auto w-full max-w-2xl">
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <div className="space-y-2">
-                  <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide">
-                    Community
-                  </div>
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Volunteering</h2>
-                  <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-w-[600px] mx-auto">
-                    Giving back to the community through mentoring and outreach.
-                  </p>
-                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Volunteering</h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed max-w-[600px] mx-auto">
+                  Giving back to the community through mentoring and outreach.
+                </p>
               </div>
               <div className="mt-8">
                 <div className="space-y-3">
@@ -1170,9 +1142,6 @@ export default function Home() {
         <section id="contact">
           <div className="mx-auto w-full max-w-2xl grid items-center justify-center gap-4 px-4 text-center md:px-6 py-12">
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium tracking-wide">
-                Contact
-              </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl gradient-text">Get in Touch</h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Let&apos;s connect! Feel free to reach out and I&apos;ll get back to you as soon as I can.
